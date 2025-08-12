@@ -1,26 +1,26 @@
-# 🕰️ Adjustable Digital Clock with Python (Tkinter)
+#  Adjustable Digital Clock with Python (Tkinter)
 
 A fully customizable and visually modern digital clock application built with Python and Tkinter. Designed to simulate real-time ticking with manual time adjustment capabilities across **seconds, minutes, hours, days, weeks, months, and years** — ideal for time-based simulations, testing alarm logic, or time-sensitive applications.
 
 ---
 
-## 🔧 Features
+##  Features
 
-- ⏱ Real-time ticking clock (hh:mm:ss)
-- 📅 Live date display (Week, Day, Month, Year)
-- 🔁 Fully adjustable time:
+- Real-time ticking clock (hh:mm:ss)
+- Live date display (Week, Day, Month, Year)
+- Fully adjustable time:
   - + / − Seconds, Minutes, Hours
   - + / − Days, Weeks, Months, Years
-- 🎨 Clean and modern Tkinter GUI with styled controls
-- 📦 Modular structure:
+-  Clean and modern Tkinter GUI with styled controls
+-  Modular structure:
   - `clocklogic.py` – Core clock time engine
   - `gui.py` – Styled GUI with real-time updates
   - `main.py` – Entry point to launch the application
-- 🔗 Easy integration with other apps (exposes getters like `get_hours()`, `get_day()`, `get_week()`, etc.)
+-  Easy integration with other apps (exposes getters like `get_hours()`, `get_day()`, `get_week()`, etc.)
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 project-root/
@@ -31,7 +31,7 @@ project-root/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Install Python
 
@@ -45,7 +45,7 @@ python main.py
 
 ---
 
-## 🔌 Integration Example
+##  Integration Example
 
 Want to use this clock in another Python application? Just import the logic engine:
 
@@ -70,7 +70,7 @@ clock.get_year()
 
 ---
 
-## 📍 Use Cases
+##  Use Cases
 
 - Time-based Simulation & Testing Tools
 - Educational Demos and Clock Simulators
@@ -78,13 +78,13 @@ clock.get_year()
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 Made by Kahilu Chipango – Lusaka, Zambia 🇿🇲  
 _Data Analyst | Aspiring Head of AI_
 
 ---
 
-## 📜 License
+##  License
 
 MIT License
